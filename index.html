@@ -11,8 +11,9 @@
 </head>
 
 <body>
-    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
-        <div class="navbar-header">
+
+    <nav class="navbar-inverse my_nav_bar">
+        <div id="nav_div" class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -22,19 +23,56 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#movies">Movies</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Campus Life</a></li>
                 <li><a href="#Environment">Environment</a></li>
                 <li><a href="#writing">Books</a></li>
                 <li><a href="#books">Books</a></li>
                 <li><a href="#blog">About me</a></li>
             </ul>
         </div>
-        <div>
-            <marquee class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <label>An Educreative experience everyday </label>
-            </marquee>
-            <div class="container">
-            <iframe class="col-lg-12 col-md-12 col-sm-12 col-xs-12" height="493" src="https://www.youtube.com/embed/57sxcjW3nwA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </nav>
+        <div style="z-index: 99999;" id="marquee_div">
+                <marquee class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label>An Educreative experience everyday </label>
+                </marquee>
         </div>
-        </div>
+        <div class="container" id="container_div">
+            <section id="home">
+                <h3>Home</h3>
+                <hr>
+                <br>
+            <iframe class="col-lg-12 col-md-12 col-sm-12 col-xs-12" height="493"
+                src="https://www.youtube.com/embed/57sxcjW3nwA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                <br>
+                <br>
+                <br>
+                <p id="break">e</p>
+            </section>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br> 
+        <section id="campus">
+            <h3>Campus Life</h3>
+            <hr>
+            <br>
+            <section id="library">
+                <img class="img-responsive" src="school_library.jpeg">
+                <h4>LIBRARY</h4>
+                <p id="info">The library is one of the periods which only happen once a week. The teacher makes students read books, gives us tasks, and teaches us new things about books. You can always go to the library during the lunch and borrow a new book, or read books from the shelves. There are all kinds of languages like English, Hindi, Marathi and genres like adventure, science-fiction, non-fiction, etc.</p>
+            </section>
+<hr>
+            <section id="library">
+                <img class="img-responsive" src="school_swimming_pool.jpeg">
+                <h4>SWIMMING POOL</h4>
+                <p id="info">The swimming is 4 feet deep. The children love being in the water. The swimming periods happen once every alternate week. Swimming is a part of the sport event: Intramurals. 2 best children from each class and compete against the rest of the grade to get points for his/her house. The top 3 of the grade also get a certificate and a medal along with house points.</p>
+            </section>
+        </section>
+
+</div>
+</body>
